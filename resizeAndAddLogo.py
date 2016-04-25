@@ -7,7 +7,7 @@ LOGO_FILENAME = 'logo.png'
 logoIm = Image.open( LOGO_FILENAME )
 logoWidth, logoHeight = logoIm.size
 
-
+os.makedirs('withLogo', exist_ok=True)
 
 #TODO: Loop over all files in the working directory.
 
